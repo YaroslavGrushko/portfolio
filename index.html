@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="stylesheets/index2.css" rel="stylesheet">
+  <link href="stylesheets/modal.css" rel="stylesheet">
+  <link href="stylesheets/big-slide.css" rel="stylesheet" >
+  <link rel="stylesheet" href="/stylesheets/lang.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+<div class="lang-switcher">
+    <label class="lang-container">
+      <span class="lang" key="en"></span>
+      <input class="translate" id="en" type="radio" name="radio">
+      <!-- <span class="checkmark"></span> -->
+      <img src="img/radio-buttons/radio-transparent.png" class="checkmark"></img>
+    </label>
+    <label class="lang-container">
+      <span class="lang" key="rus"></span>
+      <input class="translate" id="rus" type="radio" checked="checked" name="radio">
+      <img src="img/radio-buttons/radio-transparent.png" class="checkmark"></img>
+    </label>
+    <label class="lang-container ua">
+      <span class="lang" key="ua"></span>
+      <input class="translate" id="ua" type="radio" name="radio">
+      <img src="img/radio-buttons/radio-transparent.png" class="checkmark"></img>
+    </label>
+</div>
+
+    <div class="slide slide-1">
+          <!-- <img class="img-wrapper img-wrapper-1" src="../img/main/filmstrip-transparent-item1.png" alt="filmstrip"> -->
+      <div class="content content-1">
+          <img class="slide-img slide-img-1" src="img/main/front-slide-t-1.png" alt="science">
+      </div>
+
+     </div>
+
+    <div class="slide slide-2">
+      <div class="content content-2">
+          <img class="slide-img slide-img-2" src="img/main/front-slide-t-2.png" alt="java kotlin android">
+      </div>
+      </div>
+
+    <div class="slide slide-3">
+        <!-- <img class="img-wrapper img-wrapper-3" src="../img/main/filmstrip-transparent-item1.png" alt="filmstrip"> -->
+      <div class="content content-3">
+        <img class="slide-img slide-img-3" src="img/main/front-slide-t-3.png" alt="front-end">
+      </div>
+       </div>
+
+    <div class="slide-4 slide">
+      <div class="content content-4">
+          <img class="slide-img slide-img-4" src="img/main/front-slide-t-4.png" alt=".NET">
+      </div>
+        </div>
+    <div class="slide slide-5">
+      <div class="content content-5">
+        <img class="slide-img slide-img-5" src="img/main/front-slide-t-5.png" alt="quality of character">
+      </div>
+         </div>
+<!-- tooltip span that say you can close modal window by clikking the free space -->
+    <div class="modal tooltip">
+      <span id="tooltip-span">
+<span class="lang" key="click_to_close-1">натисніть </span>
+<br>
+<span class="lang" key="click_to_close-2">щоб</span>
+<br>
+<span class="lang" key="click_to_close-3">закрити</span>
+      </span>
+
+      <div id="tooltip-span-1" class="lang tooltip-span-smartphone" key="click_to_close-4"></div>
+
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <!-- <h1>Hello, I am a modal!</h1> -->
+            <div class="slide-modal">
+              <div class="content">
+              <div id="includedContent"></div>
+            </div>
+              </div>
+
+        </div>
+        <div id="tooltip-span-2" class="lang tooltip-span-smartphone" key="click_to_close-4"></div>
+    </div>
+  </div>
+  <footer>Copyright © 2018 YG • Web Developer</footer>
+  <script src="js/lang.js" ></script>
+    <script src="js/langChooser.js" ></script>
+</body>
+<script src="js/modal.js"></script>
+</html>

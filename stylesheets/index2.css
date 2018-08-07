@@ -1,0 +1,126 @@
+@charset "UTF-8";
+body {
+  margin: 0; }
+
+.wrapper {
+  height: 91vh;
+  display: grid;
+  grid-template-columns: [first] 100%;
+  grid-template-areas: "lang-switcher" "slide-1" "slide-2" "slide-3" "slide-4" "slide-5";
+  background-image: url(../img/bg/projector.png), url(../img/bg/bg4.jpg);
+  background-size: auto 70%, cover;
+  /* ╨Ь╨░╤Б╤И╤В╨░╨▒╨╕╤А╤Г╨╡╨╝ ╤Д╨╛╨╜ */
+  background-position: left top, center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  overflow: scroll; }
+
+footer {
+  grid-area: my-footer; }
+
+.slide {
+  position: relative;
+  height: 100%;
+  justify-self: center;
+  cursor: pointer;
+  margin-bottom: 200px; }
+
+.slide-img {
+  width: 70vw;
+  height: auto;
+  border-radius: 0.5rem; }
+
+.img-wrapper {
+  width: 72vw;
+  border-radius: 1.5rem;
+  position: absolute; }
+
+.slide-1 {
+  grid-area: slide-1; }
+
+.slide-1:hover {
+  transform: rotate(0deg); }
+
+.slide-2 {
+  grid-area: slide-2; }
+
+.slide-2:hover {
+  transform: rotate(0deg); }
+
+.slide-3 {
+  grid-area: slide-3; }
+
+.slide-3:hover {
+  transform: rotate(0deg); }
+
+.slide-4 {
+  grid-area: slide-4; }
+
+.slide-4:hover {
+  transform: rotate(0deg); }
+
+.slide-5 {
+  grid-area: slide-5; }
+
+.slide-5:hover {
+  transform: rotate(0deg); }
+
+.lang-switcher {
+  grid-area: lang-switcher;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 200px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.content {
+  height: 100%; }
+
+.slide-modal {
+  height: 100%;
+  transition: transform .8s ease-in-out; }
+
+footer {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 2rem; }
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(../img/bg/projector.png), url(../img/bg/filmstrip-object.png), url(../img/bg/bg4.jpg);
+    background-size: auto 70%, auto 50%, cover;
+    /* ╨Ь╨░╤Б╤И╤В╨░╨▒╨╕╤А╤Г╨╡╨╝ ╤Д╨╛╨╜ */
+    background-position: left top, right bottom, center;
+    background-repeat: no-repeat; }
+
+  /* some CSS here */
+  .wrapper {
+    grid-template-columns: [first] 20% [second] 20% [third] 20% [fourth] 20% [fifth] 20%;
+    grid-template-rows: [first] 17% [second] 17% [third] 17% [fourth] 17% [fifth] 17%;
+    grid-template-areas: "lang-switcher . . . slide-5" ". . . slide-4 . " ". . slide-3 . ." ". slide-2 . . ." "slide-1 . . . .";
+    background: none;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden; }
+
+  .slide {
+    height: 150%;
+    justify-self: stretch;
+    transform: rotate(-30deg);
+    transition: transform .8s ease-in-out;
+    cursor: pointer; }
+    .slide img {
+      width: 180px;
+      height: auto;
+      border-radius: 0.5rem; }
+
+  .lang-switcher {
+    padding-top: 10px; }
+
+  footer {
+    padding-top: 5px;
+    font-size: 1em; } }
+footer {
+  font-family: 'Comfortaa', regular; }
+
+/*# sourceMappingURL=index2.css.map */

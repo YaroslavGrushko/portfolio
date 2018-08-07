@@ -1,0 +1,149 @@
+/* The container */
+.lang-container {
+    display: block;
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 8vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: left;
+    margin-left: 50px;//33vw;
+}
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20vw;
+    width: 20vw;
+    // background-color: rgba(255,255,255,0.8);//#eee;
+    border-radius: 50%;
+}
+/* Style the indicator (dot/circle) */
+// .lang-container .checkmark:after {
+//  	top: 3vw;
+// 	left: 3vw;
+// 	width: 4vw;
+// 	height: 4vw;
+// 	border-radius: 50%;
+// 	background: white;
+// }
+
+/* Hide the browser's default radio button */
+.lang-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+/* On mouse-over, add a grey background color */
+.lang-container:hover input ~ .checkmark {
+    background-color: #fdffb4;
+    // background-color: rgba(238,238,238,0.5);//#eee;
+}
+
+/* When the radio button is checked, add a blue background */
+.lang-container #en ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-en-off-2.png);
+    background-size: auto 100%;
+}
+.lang-container #rus ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-rus-off-2.png);
+    background-size: auto 100%;
+}
+.lang-container #ua ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-ukr-off-2.png);
+    background-size: auto 100%;
+}
+.lang-container #en:checked ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-en-on-2.png);
+    background-size: auto 100%;
+}
+.lang-container #rus:checked ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-rus-on-2.png);
+    background-size: auto 100%;
+}
+.lang-container #ua:checked ~ img {
+    // background-color: #2196F3;
+    background-image: url(../img/radio-buttons/radio-ukr-on-2.png);
+    background-size: auto 100%;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.lang-container input:checked ~ .checkmark:after {
+    display: block;
+}
+//for ua language:
+#rus~img{
+  margin-left:20vw;
+}
+#ua~img{
+  margin-left:35vw;
+}
+//for ua language:
+// .ua{
+//   margin-left:30vw;
+// }
+
+@media screen and (min-width: 1024px){
+  /* The container */
+  .lang-container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      float: left;
+      margin-left: 3vw;
+  }
+  /* Create a custom radio button */
+  .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 7vw;
+      width: 7vw;
+      // background-color: #eee;
+      // border-radius: 50%;
+      // background-image: url(../img/radio-button-image.png)
+
+  }
+  /* Style the indicator (dot/circle) */
+  // .lang-container .checkmark:after {
+  //  	top: 9px;
+  // 	left: 9px;
+  // 	width: 8px;
+  // 	height: 8px;
+  // 	border-radius: 50%;
+  // 	background: white;
+  // }
+  //for ua language:
+  #rus~img{
+    margin-left:50px;
+  }
+  #ua~img{
+    margin-left:100px;
+  }
+}
