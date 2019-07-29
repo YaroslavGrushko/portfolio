@@ -6,7 +6,7 @@ var arrLang={
     'click_to_close-2':'to close',
     'click_to_close-3':'',
     'click_to_close-4':'click to close',
-    'slide-1-title-2':'I like to do something interesting and useful:',
+    'slide-1-title-2':'Projects that somehow related to science:',
     'slide-1-web-1':'Web application, which solves the problem of simple AI, the so-called. "vacuum cleaner"',
     'slide-1-web-2':'Spectral and cepstral sound analysis for voice identification (publication)',
     'slide-1-web-3':'ASP.NET MVC Voice Biometrics Web Service (client\'s identification by voice)',
@@ -18,7 +18,7 @@ var arrLang={
     'slide-1-techno-2':'Matlab (for mathematical tasks and modeling)',
     'slide-1-techno-3':'EViews (for time series analysis)',
 
-    'slide-2-title-2':'I like to create android and web app with java and kolin',
+    'slide-2-title-2':'Some Android and web app with java and kolin:',
     'slide-2-web-1':'Website for passing tests (is designed for students and teachers)',
     'slide-2-web-2':'Android app converts the energy of voice into the appropriate color (Beta version)',
     'slide-2-title-3':'Technologies I use:',
@@ -39,7 +39,7 @@ var arrLang={
     'slide-3-techno-3':'JavaScript (ECMAScript)',
     'slide-3-techno-4':'React (to create interactive UIs)',
 
-    'slide-4-title-2':'I like programming on c #, writing web applications on Asp.Net web API and Asp.Net MVC, as well as desktop applications on WPF and Winforms:',
+    'slide-4-title-2':'Some projects in c #, Asp.Net web API and Asp.Net MVC, desktop applications on WPF and Winforms:',
     'slide-4-web-1':'Asp.Net Core Web API, Entity Framework, SQLite, Angular.js (using DI)',
     'slide-4-web-2':'ASP.NET MVC Voice Biometrics Web Service (client\'s identification by voice)',
     'slide-4-web-3':'ASP.NET WebAPI RSS reader, simple but comfortable in using',
@@ -53,15 +53,13 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Hi, my name is Yaroslav, nice to meet you :)',
-    'slide-5-text-1':'I love what I do :)',
     'slide-5-text-2':'purposeful',
-    'slide-5-text-3':'fairly calm',
     'slide-5-text-4':'disciplined',
     'slide-5-text-5':'I have a bachelor\'s degree in the',
     'iasa':'IASA',
     'kpi':'KPI',
     'ukraine':'(Ukraine)',
-    'slide-5-title-2':'Intends to engage in front-end development, but I\'m ready to take any (.Net, Android + something with science) remote work that I liked.'
+    'slide-5-title-2':'Intends to engage in front-end development. I want to work remotely.'
   },
   'rus':{
     'en':'',
@@ -70,7 +68,7 @@ var arrLang={
     'click_to_close-2':'чтобы',
     'click_to_close-3':'закрыть',
     'click_to_close-4':'нажмите чтобы закрыть',
-    'slide-1-title-2':'Люблю заниматься чем то интересным и полезным:',
+    'slide-1-title-2':'Проекты так или иначе связаны с наукой:',
     'slide-1-web-1':'Веб приложение, которое решает задачу простого ИИ, т.н. "пылесоса"',
     'slide-1-web-2':'Спектральный и кепстральный анализ звука для идентификации голоса (публикация)',
     'slide-1-web-3':'ASP.NET MVC веб сервис Voice Biometrics (идентификация клиента по голосу)',
@@ -82,7 +80,7 @@ var arrLang={
     'slide-1-techno-2':'Matlab (для мат. задач и моделирования)',
     'slide-1-techno-3':'EViews (для анализа временных рядов)',
 
-    'slide-2-title-2':'Люблю создавать андроид- и веб- приложения',
+    'slide-2-title-2':'Мои андроид- и веб- приложения:',
     'slide-2-web-1':'Веб приложение (Java) для создания и прохождения тестов (например, в университете)',
     'slide-2-web-2':'Android приложение преобразует энергию голоса в соответствующий цвет (Бета версия)',
     'slide-2-title-3':'Technologies I use:',
@@ -102,7 +100,7 @@ var arrLang={
     'slide-3-techno-3':'JavaScript (ECMAScript)',
     'slide-3-techno-4':'React (to create interactive UIs)',
 
-    'slide-4-title-2':'Люблю программировать на c#, писать веб приложения на Asp.Net web API и Asp.Net MVC, а также десктоп приложения на WPF и Winforms:',
+    'slide-4-title-2':'Проекты на c#, Asp.Net web API и Asp.Net MVC, десктоп приложения на WPF и Winforms:',
     'slide-4-web-1':'Asp.Net Core Web API, Entity Framework, SQLite, Angular.js (с использованием DI)',
     'slide-4-web-2':'ASP.NET MVC веб сервис Voice Biometrics (идентификация клиента по голосу)',
     'slide-4-web-3':'ASP.NET Web API RSS reader, простой, но удобный в использовании',
@@ -116,14 +114,12 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Привет, меня зовут Ярослав, приятно познакомиться :)',
-    'slide-5-text-1':'Я люблю то, чем занимаюсь :)',
     'slide-5-text-2':'целеустремленный',
-    'slide-5-text-3':'достаточно спокоен',
     'slide-5-text-4':'дисциплинированный',
     'slide-5-text-5':'имею диплом бакалавра',
     'iasa':"ИПСА",
     'kpi':"КПИ",
-    'slide-5-title-2':'Намерен заниматься front-end разработкой, однако готов взяться за любую (.Net, Android + что то с наукой) удаленную работу, понравившуюся мне.'
+    'slide-5-title-2':'Намерен заниматься front-end разработкой. При этом работать удаленно :)'
   },
 
   'ua':{
@@ -134,7 +130,7 @@ var arrLang={
     'click_to_close-2':'щоб',
     'click_to_close-3':'закрити',
     'click_to_close-4':'натисніть, щоб закрити',
-    'slide-1-title-2':'Люблю займатися чимось цікавим та корисним :)',
+    'slide-1-title-2':'Проекти так чи інакше пов\'язані з наукої',
     'slide-1-web-1':'Веб додаток, що вирішує задачу простого ШІ, т.з. "пилесоса"',
     'slide-1-web-2':'Спектральний і кепстральний аналіз звука для ідентифікації голоса (публікація)',
     'slide-1-web-3':'ASP.NET MVC веб сервіс Voice Biometrics (ідентифікація клієнта по голосу)',
@@ -146,7 +142,7 @@ var arrLang={
     'slide-1-techno-2':'Matlab (для мат. задач та моделювання)',
     'slide-1-techno-3':'EViews (для аналізу чясових рядів)',
 
-    'slide-2-title-2':'Мені подобається програмувати у Android Studio та Intllij IDEA',
+    'slide-2-title-2':'Android-, та веб- додатки:',
     'slide-2-web-1':'Веб додаток (Java) для створення (викладачем) та проходження (студентом) тестів онлайн',
     'slide-2-web-2':'Android додаток перетворює енергію голосу у відповідний колір (бета версія)',
     'slide-2-title-3':'Technologies I use:',
@@ -166,7 +162,7 @@ var arrLang={
     'slide-3-techno-3':'JavaScript (ECMAScript)',
     'slide-3-techno-4':'React (to create interactive UIs)',
 
-    'slide-4-title-2':'Люблю програмувати на c#, писати веб додатки на Asp.Net web API та Asp.Net MVC, а також десктоп додатки на WPF і Winforms:',
+    'slide-4-title-2':'Додатки на c#, веб додатки на Asp.Net web API та Asp.Net MVC, десктоп додатки на WPF і Winforms:',
     'slide-4-web-1':'Asp.Net Core Web API, Entity Framework, SQLite, Angular.js (з використанням DI)',
     'slide-4-web-2':'ASP.NET MVC веб сервіс Voice Biometrics (ідентифікація клієнта по голосу)',
     'slide-4-web-3':'ASP.NET Web API RSS reader, простий, але зручний у використанні',
@@ -180,17 +176,15 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Привіт, мене звуть Ярослав, приємно познайомитися :)',
-    'slide-5-text-1':'Я люблю те, чим займаюсь :)',
     'slide-5-text-2':'цілеспрямований',
-    'slide-5-text-3':'достатньо спокійний',
     'slide-5-text-4':'дисциплінований',
     'slide-5-text-5':'маю диплом бакалавра',
     'iasa':"ІПСА",
     'kpi':"КПІ",
-    'slide-5-title-2':'Маю на меті займатися front-end розробкою, але можу взятися забудь-яку (.Net, Android + щось з наукої) віддалену роботу, що мені сподобається.'
+    'slide-5-title-2':'Маю на меті займатися front-end розробкою. При цьому працювати віддалено:)'
   }
 }
-var lang='rus';
+var lang='ua';
 $(function(){
   $('.translate').click(function(){
 lang = $(this).attr('id');
