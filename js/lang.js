@@ -7,9 +7,9 @@ var arrLang={
     'click_to_close-3':'',
     'click_to_close-4':'click to close',
     'slide-1-title-2':'Projects that somehow related to science:',
-    'slide-1-web-1':'Web application, which solves the problem of simple AI, the so-called. "vacuum cleaner"',
+    'slide-1-web-1':'Master\'s thesis',
     'slide-1-web-2':'Spectral and cepstral sound analysis for voice identification (publication)',
-    'slide-1-web-3':'ASP.NET MVC Voice Biometrics Web Service (client\'s identification by voice)',
+    'slide-1-web-3':'Comparison of the effectiveness of machine learning classifiers in the context of voice biometrics (publication)',
     'slide-1-web-4':'C# project for finding keywords in Microsoft Word text documents',
     'slide-1-web-5':'Site for nanotechnology laboratory of ISM NASU',
     'slide-1-web-6':'C# (winforms) + Matlab application of the theory of decision-making for labor force planning in the enterprise',
@@ -54,12 +54,10 @@ var arrLang={
 
     'slide-5-title-1':'Hi, my name is Yaroslav, nice to meet you :)',
     'slide-5-text-2':'purposeful',
-    'slide-5-text-4':'disciplined',
-    'slide-5-text-5':'I have a bachelor\'s degree in the',
+    'slide-5-text-4':'I have a bachelor\'s degree in the',
     'iasa':'IASA',
     'kpi':'KPI',
     'ukraine':'(Ukraine)',
-    'slide-5-title-2':'Intends to engage in front-end development. I want to work remotely.'
   },
   'rus':{
     'en':'',
@@ -69,9 +67,9 @@ var arrLang={
     'click_to_close-3':'закрыть',
     'click_to_close-4':'нажмите чтобы закрыть',
     'slide-1-title-2':'Проекты так или иначе связаны с наукой:',
-    'slide-1-web-1':'Веб приложение, которое решает задачу простого ИИ, т.н. "пылесоса"',
+    'slide-1-web-1':'Магистерская работа',
     'slide-1-web-2':'Спектральный и кепстральный анализ звука для идентификации голоса (публикация)',
-    'slide-1-web-3':'ASP.NET MVC веб сервис Voice Biometrics (идентификация клиента по голосу)',
+    'slide-1-web-3':'Сравнение эффективности классификаторов машинного обучения в контексте голосовой биометрии (публикация)',
     'slide-1-web-4':'Ефективний статистичний алгоритм знаходження ключових слів у текстових файлах (публікація)',
     'slide-1-web-5':'Сайт для лаборатории нанотехнологий ISM NASU',
     'slide-1-web-6':'C # (winforms) + Matlab приложение теории принятия решений для планирования рабочей силы на предприятии',
@@ -115,11 +113,9 @@ var arrLang={
 
     'slide-5-title-1':'Привет, меня зовут Ярослав, приятно познакомиться :)',
     'slide-5-text-2':'целеустремленный',
-    'slide-5-text-4':'дисциплинированный',
-    'slide-5-text-5':'имею диплом бакалавра',
+    'slide-5-text-4':'имею диплом бакалавра',
     'iasa':"ИПСА",
     'kpi':"КПИ",
-    'slide-5-title-2':'Намерен заниматься front-end разработкой. При этом работать удаленно :)'
   },
 
   'ua':{
@@ -130,10 +126,10 @@ var arrLang={
     'click_to_close-2':'щоб',
     'click_to_close-3':'закрити',
     'click_to_close-4':'натисніть, щоб закрити',
-    'slide-1-title-2':'Проекти так чи інакше пов\'язані з наукої',
-    'slide-1-web-1':'Веб додаток, що вирішує задачу простого ШІ, т.з. "пилесоса"',
+    'slide-1-title-2':'Проекти пов\'язані з навчанням в університеті:',
+    'slide-1-web-1':'Магістерська робота',
     'slide-1-web-2':'Спектральний і кепстральний аналіз звука для ідентифікації голоса (публікація)',
-    'slide-1-web-3':'ASP.NET MVC веб сервіс Voice Biometrics (ідентифікація клієнта по голосу)',
+    'slide-1-web-3':'Порівняння ефективності класифікаторів машинного навчання у контексті голосової біометрії (публікація)',
     'slide-1-web-4':'Ефективний статистичний алгоритм знаходження ключових слів у текстових файлах (публікація)',
     'slide-1-web-5':'Сайт для лабораторії нанотехнологій ISM NASU',
     'slide-1-web-6':'C # (winforms) + Matlab додаток теорії прийняття рішень для планування робочої сили на підприємстві',
@@ -177,11 +173,9 @@ var arrLang={
 
     'slide-5-title-1':'Привіт, мене звуть Ярослав, приємно познайомитися :)',
     'slide-5-text-2':'цілеспрямований',
-    'slide-5-text-4':'дисциплінований',
-    'slide-5-text-5':'маю диплом магістра',
+    'slide-5-text-4':'маю диплом магістра',
     'iasa':"ІПСА",
     'kpi':"КПІ",
-    'slide-5-title-2':'Маю на меті займатися front-end розробкою. При цьому працювати віддалено:)'
   }
 }
 var lang='ua';
