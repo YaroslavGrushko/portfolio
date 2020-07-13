@@ -14,9 +14,9 @@ var arrLang={
     'slide-1-web-5':'Research and prediction of the startups’ success on kickstarter platform (publication-2019)',
     'slide-1-web-6':'Spectral and cepstral sound analysis for voice identification (publication-2016)',
     'slide-1-title-3':'Technologies I use:',
-    'slide-1-techno-1':'C# language',
-    'slide-1-techno-2':'Matlab (for mathematical tasks and modeling)',
-    'slide-1-techno-3':'EViews (for time series analysis)',
+    'slide-1-techno-1':'Python',
+    'slide-1-techno-2':'Scikit learn',
+    'slide-1-techno-3':'Python_speech_features lib',
 
     'slide-2-title-2':'Some Android and web app with java and kolin:',
     'slide-2-web-1':'Website for passing tests (is designed for students and teachers)',
@@ -53,7 +53,6 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Hi, my name is Yaroslav, nice to meet you :)',
-    'slide-5-text-2':'purposeful',
     'slide-5-text-4':'I have a bachelor\'s degree in the',
     'iasa':'IASA',
     'kpi':'KPI',
@@ -74,9 +73,9 @@ var arrLang={
     'slide-1-web-5':'Исследование и прогнозирование успешности стартапов платформы kickstarter (публикация-2019)',
     'slide-1-web-6':'Спектральный и кепстральный анализ звука для идентификации голоса (публикация-2016)',
     'slide-1-title-3':'Технологии, которые использую:',
-    'slide-1-techno-1':'C# language',
-    'slide-1-techno-2':'Matlab (для мат. задач и моделирования)',
-    'slide-1-techno-3':'EViews (для анализа временных рядов)',
+    'slide-1-techno-1':'Python',
+    'slide-1-techno-2':'Scikit learn',
+    'slide-1-techno-3':'Библиотека python_speech_features',
 
     'slide-2-title-2':'Мои андроид- и веб- приложения:',
     'slide-2-web-1':'Веб приложение (Java) для создания и прохождения тестов (например, в университете)',
@@ -112,7 +111,6 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Привет, меня зовут Ярослав, приятно познакомиться :)',
-    'slide-5-text-2':'целеустремленный',
     'slide-5-text-4':'имею диплом бакалавра',
     'iasa':"ИПСА",
     'kpi':"КПИ",
@@ -134,9 +132,9 @@ var arrLang={
     'slide-1-web-5':'Дослідження і прогнозування успішності стартапів платформи kickstarter (публікація-2019)',
     'slide-1-web-6':'Спектральний і кепстральний аналіз звука для ідентифікації голоса (публікація-2016)',
     'slide-1-title-3':'Технології, якими користуюсь:',
-    'slide-1-techno-1':'C# language',
-    'slide-1-techno-2':'Matlab (для мат. задач та моделювання)',
-    'slide-1-techno-3':'EViews (для аналізу чясових рядів)',
+    'slide-1-techno-1':'Python',
+    'slide-1-techno-2':'Scikit learn',
+    'slide-1-techno-3':'Бібліотека python_speech_features',
 
     'slide-2-title-2':'Android-, та веб- додатки:',
     'slide-2-web-1':'Веб додаток (Java) для створення (викладачем) та проходження (студентом) тестів онлайн',
@@ -172,7 +170,6 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Привіт, мене звуть Ярослав, приємно познайомитися :)',
-    'slide-5-text-2':'цілеспрямований',
     'slide-5-text-4':'маю диплом магістра',
     'iasa':"ІПСА",
     'kpi':"КПІ",
