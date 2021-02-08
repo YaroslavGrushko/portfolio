@@ -1,11 +1,12 @@
+Якщо на комп'ютері локально встановлений Node.js, то щоб встановити sass, достатньо
+запустити в cmd:
+npm install -g sass
+
+після чого можна запускати наступні команди:
+
 sass watch:
-sass --watch sass/index2.scss:stylesheets/index2.css
 
 sass --watch sass/modal.scss:stylesheets/modal.css
-
-sass --watch sass/big-slide.scss:stylesheets/big-slide.css
-
-sass --watch sass/lang.scss:stylesheets/lang.css
 
 sass watch all sass folder to css folder:
 
