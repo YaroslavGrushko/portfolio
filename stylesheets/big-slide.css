@@ -1,20 +1,26 @@
 .big-slide {
-  font-family: 'Pacifico', cursive; }
+  font-family: "Pacifico", cursive;
+}
 
 .web {
-  font-family: 'Syncopate', sans-serif !important; }
+  font-family: "Syncopate", sans-serif !important;
+}
 
 h2 {
-  font-size: 5rem; }
+  font-size: 5rem;
+}
 
 .simple-text {
-  font-size: 3rem; }
+  font-size: 3rem;
+}
 
 .polaroid p {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .polaroid-techno p {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .grid-web {
   display: grid;
@@ -24,7 +30,8 @@ h2 {
   grid-template-rows: auto;
   grid-template-areas: "web-1" "web-2" "web-3" "web-4" "web-5";
   padding: 10px;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .grid-web-6 {
   display: grid;
@@ -34,7 +41,8 @@ h2 {
   grid-template-rows: auto;
   grid-template-areas: "web-1" "web-2" "web-3" "web-4" "web-5" "web-6";
   padding: 10px;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .grid-web-7 {
   display: grid;
@@ -44,7 +52,8 @@ h2 {
   grid-template-rows: auto;
   grid-template-areas: "web-1" "web-2" "web-3" "web-4" "web-5" "web-6" "web-7";
   padding: 10px;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .grid-techno {
   display: grid;
@@ -54,7 +63,8 @@ h2 {
   grid-template-rows: auto;
   grid-template-areas: "techno-1" "techno-2" "techno-3";
   padding: 10px;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .grid-techno-4 {
   display: grid;
@@ -64,37 +74,44 @@ h2 {
   grid-template-rows: auto;
   grid-template-areas: "techno-1" "techno-2" "techno-3" "techno-4";
   padding: 10px;
-  justify-items: center; }
+  justify-items: center;
+}
 
 div.polaroid-techno {
   width: 75%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
-  margin-bottom: 25px;
-  border: 0.1px solid white; }
-  div.polaroid-techno img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 60%; }
+  border: 0.1px solid white;
+}
+div.polaroid-techno img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 60%;
+}
 
 @media screen and (min-width: 1024px) {
   h2 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+  }
 
   .simple-text {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+  }
 
   .polaroid p {
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
 
   .polaroid-techno p {
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
 
   .polaroid-techno div {
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
 
   .grid-web {
     display: grid;
@@ -103,7 +120,8 @@ div.polaroid-techno {
     grid-template-columns: auto;
     grid-template-rows: 50% 50%;
     grid-template-areas: "web-1 web-2 web-3" "web-4 web-5 .";
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .grid-web-6 {
     display: grid;
@@ -112,7 +130,8 @@ div.polaroid-techno {
     grid-template-columns: auto;
     grid-template-rows: 50% 50%;
     grid-template-areas: "web-1 web-2 web-3" "web-4 web-5 web-6";
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .grid-web-7 {
     display: grid;
@@ -121,7 +140,8 @@ div.polaroid-techno {
     grid-template-columns: auto;
     grid-template-rows: 50% 50%;
     grid-template-areas: "web-1 web-2 web-3" "web-4 web-5 web-6" "web-7 . .";
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .grid-techno {
     display: grid;
@@ -130,7 +150,8 @@ div.polaroid-techno {
     grid-template-columns: 20% 30% 30% 30% 20% 20%;
     grid-template-rows: 20vw;
     grid-template-areas: " . techno-1 techno-2 techno-3 . . ";
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .grid-techno-4 {
     display: grid;
@@ -139,74 +160,97 @@ div.polaroid-techno {
     grid-template-columns: 5% 30% 30% 30% 30% 5%;
     grid-template-rows: 20vw;
     grid-template-areas: " . techno-1 techno-2 techno-3 techno-4 . ";
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .net {
     width: 50%;
-    height: 90%; }
-    .net img {
-      height: 40% !important; }
+    height: 90%;
+  }
+  .net img {
+    height: 40% !important;
+  }
 
   .science {
     width: 50%;
-    height: 90%; }
-    .science img {
-      height: 40% !important; }
+    height: 90%;
+  }
+  .science img {
+    height: 40% !important;
+  }
 
   .front {
     width: 50%;
-    height: 100%; }
-    .front img {
-      height: 50% !important; }
+    height: 100%;
+  }
+  .front img {
+    height: 50% !important;
+  }
 
   div.container {
-    padding: 10px 20px; } }
+    padding: 10px 20px;
+  }
+}
 .web-1 {
-  grid-area: web-1; }
+  grid-area: web-1;
+}
 
 .web-2 {
-  grid-area: web-2; }
+  grid-area: web-2;
+}
 
 .web-3 {
-  grid-area: web-3; }
+  grid-area: web-3;
+}
 
 .web-4 {
-  grid-area: web-4; }
+  grid-area: web-4;
+}
 
 .web-5 {
-  grid-area: web-5; }
+  grid-area: web-5;
+}
 
 .web-6 {
-  grid-area: web-6; }
+  grid-area: web-6;
+}
 
 .web-7 {
-  grid-area: web-7; }
+  grid-area: web-7;
+}
 
 .techno-1 {
-  grid-area: techno-1; }
+  grid-area: techno-1;
+}
 
 .techno-2 {
-  grid-area: techno-2; }
+  grid-area: techno-2;
+}
 
 .techno-3 {
-  grid-area: techno-3; }
+  grid-area: techno-3;
+}
 
 .techno-4 {
-  grid-area: techno-4; }
+  grid-area: techno-4;
+}
 
 div.polaroid {
   width: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 70px;
-  transition: transform .2s; }
+  transition: transform 0.2s;
+}
 
 div.polaroid:hover {
   transform: scale(1.1);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 div.container {
   text-align: center;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+}
 
 /*# sourceMappingURL=big-slide.css.map */
