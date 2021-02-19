@@ -40,9 +40,9 @@ var arrLang={
     'slide-3-techno-3':'JavaScript',
     'slide-3-techno-4':'Next.js (SEO - оптимізований React)',
 
-    'slide-4-title-2':'Додатки на c#, веб додатки на Asp.Net web API та Asp.Net MVC, десктоп додатки на WPF і Winforms:',
-    'slide-4-web-1':'ASP.NET MVC прототип ідентифікації по голосу (2018)',
-    'slide-4-web-2':'ASP.NET Web API Rss reader новин (2018)',
+    'slide-4-title-2':'Додатки на c#, що писалися, коли вчився в університеті, в період 2017-2018',
+    'slide-4-web-1':'ASP.NET MVC прототип ідентифікації по голосу',
+    'slide-4-web-2':'ASP.NET Web API Rss reader новин',
     'slide-4-web-3':'C# (Winforms) проект для шифрування текстових даних, а також докумеетів Microsoft Office по алгоритму AES:',
     'slide-4-web-4':'Клиєнт-серверний додаток (з використанням TcpClient) написане на C# за допомогою технології WPF',
     'slide-4-web-5':'C# (Winforms) додаток, що може знаходити ключові слова в документах Microsoft Office',
@@ -53,10 +53,12 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Основні фішки створеного з нуля інтернет магазину Helix:',
-    'slide-5-web-1':'Власне посилання (натисніть на картинку) на інтернет магазин',
+    'slide-5-web-1':'Власне посилання на інтернет магазин (натисніть на картинку)',
     'slide-5-web-2':'Створений на Next.js (SEO - оптимізованому React).',
-    'slide-5-web-3':'SSG (Static Site Generation) + SSR (Server-Side Rendering) - браузер бачить сайт із відключеним js - це для SEO',
-    'slide-5-web-4':'Dashboard для адміністратора з можливістю роботи з товарами, новими замовленнями, блогом, прибутком і т.д.',
+    'slide-5-web-3':'SSG (Static Site Generation) + SSR (Server-Side Rendering) - браузер, із відключеним js, бачить сайт - це для SEO',
+    'slide-5-web-4':'Dashboard для адміністратора з можливістю роботи з товарами, замовленнями, блогом, прибутком і т.д.',
+    'slide-5-web-5':'Python (Flask) - API з прогнозування прибутку',
+    'slide-5-web-6':'Встановлений на production - сервер (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
   },
   'rus':{
     'en':'',
@@ -98,8 +100,8 @@ var arrLang={
     'slide-3-techno-3':'JavaScript',
     'slide-3-techno-4':'Next.js (SEO - оптимизированный React)',
 
-    'slide-4-title-2':'Проекты на c#, Asp.Net web API и Asp.Net MVC, десктоп приложения на WPF и Winforms:',
-    'slide-4-web-1':'ASP.NET MVC прототип идентификации по голосу (2018)',
+    'slide-4-title-2':'Приложения на c#, которые создавались, когда учился в университете в период (2017-2018):',
+    'slide-4-web-1':'ASP.NET MVC прототип идентификации по голосу',
     'slide-4-web-2':'ASP.NET Web API RSS reader, простой, но удобный в использовании',
     'slide-4-web-3':'C# (Winforms) проект для шифрования текстовых данных, а также документов Microsoft Office по алгоритму AES:',
     'slide-4-web-4':'Клиент-серверное приложение (с использованием TcpClient) написанное на C# с помощью технологии WPF',
@@ -111,7 +113,12 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'Основные фишки созданного с нуля интернет магазина Helix:',
-    
+    'slide-5-web-1':'Собственно ссылка на интернет магазин (нажмите на картинку)',
+    'slide-5-web-2':'Созданный на Next.js (SEO - оптимизированном React)',
+    'slide-5-web-3':'SSG (Static Site Generation) + SSR (Server-Side Rendering) - браузер, с отключенным js, видит сайт - это для SEO',
+    'slide-5-web-4':'Dashboard для администратора с возможностью работы с товарами, заказами, блогом, прибылью и т.д.',
+    'slide-5-web-5':'Python (Flask) - API прогнозирование прибыли',
+    'slide-5-web-6':'Установленный на production - сервер (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
   },
   'en':{
     'en':'',
@@ -154,7 +161,7 @@ var arrLang={
     'slide-3-techno-3':'JavaScript',
     'slide-3-techno-4':'Next.js (SEO - optimized React)',
 
-    'slide-4-title-2':'Some projects in c #, Asp.Net web API and Asp.Net MVC, desktop applications on WPF and Winforms:',
+    'slide-4-title-2':'c # projects, that created when I was studying at university in the period 2017-2018:',
     'slide-4-web-1':'ASP.NET MVC identification by voice prototype (2018)',
     'slide-4-web-2':'ASP.NET WebAPI RSS reader, simple but comfortable in using',
     'slide-4-web-3':'C # (Winforms) project for encrypting text data, as well as Microsoft Office documents using the AES algorithm',
@@ -167,7 +174,12 @@ var arrLang={
     'slide-4-techno-3':'(WPF, Winforms)',
 
     'slide-5-title-1':'The main features of the online store created from scratch and named Helix:',
-    'slide-5-web-1':'Власне посилання на інтернет магазин',
+    'slide-5-web-1':'Link to the online store (click on the picture)',
+    'slide-5-web-2':'Created on Next.js (SEO - optimized React)',
+    'slide-5-web-3':'SSG (Static Site Generation) + SSR (Server-Side Rendering) - the browser, with js disabled, understand the site - this is for SEO',
+    'slide-5-web-4':'Dashboard for the administrator with the ability to work with products, orders, blog, profits, etc.',
+    'slide-5-web-5':'Python (Flask) - profit prediction API',
+    'slide-5-web-6':'Installed on the production server (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
   }
 }
 var lang='ua';
