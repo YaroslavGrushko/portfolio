@@ -89,7 +89,7 @@ var arrLang={
 
     'slide-3-title-2':'Проекты, написанные, с использованием html + css + js + Next.js (React):',
     'slide-3-web-1':'Написанный с нуля интернет магазин на Next.js (Seo-оптимизированный React)',
-    'slide-3-web-2':'Веб-камеры мира онлайн (React)',
+    'slide-3-web-2':'Веб-помощник покупателя продовольственных товаров',
     'slide-3-web-3':'Задача Искусственного интеллекта про пылесос',
     'slide-3-web-4':'Веб-прототип идентификации по голосу',
     'slide-3-web-5':'Простой RSS reader для чтения новостей',
@@ -150,7 +150,7 @@ var arrLang={
 
     'slide-3-title-2':'Projects written with html + css + js + Next.js (React):',
     'slide-3-web-1':'Written from scratch internet-shop on Next.js (Seo-optimized React)',
-    'slide-3-web-2':'World webcams online (React)',
+    'slide-3-web-2':'Grocery shopping web-assistant',
     'slide-3-web-3':'Vacuum cleaner AI (Artificial intelligence) problem',
     'slide-3-web-4':'Web-prototype of identification by voice',
     'slide-3-web-5':'Simple news RSS reader',
