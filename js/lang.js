@@ -59,6 +59,8 @@ var arrLang={
     'slide-5-web-4':'Dashboard для адміністратора з можливістю роботи з товарами, замовленнями, блогом, прибутком і т.д.',
     'slide-5-web-5':'Python (Flask) - API з прогнозування прибутку',
     'slide-5-web-6':'Встановлений на production - сервер (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
+    'slide-5-web-7':'Звіт Lighthouse по Хеліксу',
+
   },
   'rus':{
     'en':'',
@@ -119,6 +121,7 @@ var arrLang={
     'slide-5-web-4':'Dashboard для администратора с возможностью работы с товарами, заказами, блогом, прибылью и т.д.',
     'slide-5-web-5':'Python (Flask) - API прогнозирование прибыли',
     'slide-5-web-6':'Установленный на production - сервер (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
+    'slide-5-web-7':'Отчет Lighthouse по Хеликсу',
   },
   'en':{
     'en':'',
@@ -180,6 +183,7 @@ var arrLang={
     'slide-5-web-4':'Dashboard for the administrator with the ability to work with products, orders, blog, profits, etc.',
     'slide-5-web-5':'Python (Flask) - profit prediction API',
     'slide-5-web-6':'Installed on the production server (Ubuntu + Nginx + Node.js + Gunicorn (Python))',
+    'slide-5-web-7':'Lighthouse report of Helix',
   }
 }
 var lang='ua';
